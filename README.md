@@ -43,7 +43,7 @@ It demonstrates file handling, input validation, and basic data management.
 
 ---
 
-## 📄 Data Format - `land_data.txt`
+## Data Format - `land_data.txt`
 
 ```plaintext
 101, Katmandu, North, 4, 50000, Available, 0
@@ -97,6 +97,6 @@ It demonstrates file handling, input validation, and basic data management.
 
 ---
 
-## 🪪 License
+## License
 
 This project is for educational purposes only.
