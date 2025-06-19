@@ -31,38 +31,48 @@ It demonstrates file handling, input validation, and basic data management.
 ## Getting Started
 
 1. **Clone the Repository**:
-  
-   git clone <your-repo-url>
-   cd <project-directory>
+   ```bash
+   git clone https://github.com/ushabajgain/Land-Rental-System.git
+   cd Land-Rental-System
+   ```
 
-Run the Application:
+2. **Run the Application**:
+   ```bash
+   python main.py
+   ```
 
-python main.py
+---
 
-Data Format - land_data.txt
+## 📄 Data Format - `land_data.txt`
 
+```plaintext
 101, Katmandu, North, 4, 50000, Available, 0
 102, Pokhara, East, 5, 60000, Available, 0
-Format:
-kitta_number, location, direction, area, price, status, total_months_rented
+```
 
-Usage
-Option 1 - Display All Lands
+**Format**:  
+`kitta_number, location, direction, area, price, status, total_months_rented`
 
-Option 2 - Rent Land
-Enter name, kitta number, phone number, duration (months).
-Invoice saved as <filename>_rent.txt.
+---
 
-Option 3 - Return Land
-Enter name, phone number, kitta number.
-Return invoice saved as <filename>_return.txt.
+## Usage
 
-Option 4 - Exit Application
+- **Option 1 - Display All Lands**
+- **Option 2 - Rent Land**  
+  Enter name, kitta number, phone number, duration (months).  
+  Invoice saved as `<filename>_rent.txt`.
 
-Example Invoice
-plaintext
-Copy
-Edit
+- **Option 3 - Return Land**  
+  Enter name, phone number, kitta number.  
+  Return invoice saved as `<filename>_return.txt`.
+
+- **Option 4 - Exit Application**
+
+---
+
+## Example Invoice
+
+```plaintext
 ────────────────────── INVOICE ────────────────────
  Kitta Number: 101
  Customer Name: John Doe
@@ -70,29 +80,23 @@ Edit
  Duration (months): 3
  Total Amount: 150000 NPR
 ───────────────────────────────────────────────────
-
-
-Requirements
-Python 3.x
-
-
-Notes
-Ensure land_data.txt is in the same folder as the .py files.
-
-Invoices are saved in the same directory.
-
-🪪 License
-This project is for educational purposes only.
-
+```
 
 ---
 
-Just replace `<your-repo-url>` with your actual GitHub link. Let me know if you want to add badges, GitHub topics, or a project cover/banner!
+## Requirements
 
+- Python 3.x
 
+---
 
+## Notes
 
+- Ensure `land_data.txt` is in the same folder as the `.py` files.
+- Invoices are saved in the same directory as the program.
 
+---
 
+## 🪪 License
 
-
+This project is for educational purposes only.
